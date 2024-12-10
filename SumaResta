@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class CalculadoraSimple {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int resultado = 0; // Almacena el resultado de las operaciones
+        boolean continuar = true;
+
+        System.out.println("Bienvenido a la calculadora simple.");
+        System.out.println("Elige una operación: '+' para sumar, '-' para restar.");
+        System.out.println("Escribe 'salir' para terminar el programa.");
+
+        while (continuar) {
+            System.out.println("\nResultado 
